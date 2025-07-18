@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    color:white;
+    padding-top : 60px;
+    background-color: rgb(44, 44, 44);
+    padding: 30px
+}
+
+.Navbar {
+    position: fixed;
+    width: 100%;
+    font-size: 2vw;
+    top: 0;
+    right: 0;
+    background-color: rgb(102, 2, 153);
+    padding : 2vw;
+    list-style: none;
+}
+
+.nav-container{
+    min-width:100%;
+}
+
+.nav-list{
+    display:flex;
+    list-style: none;
+    gap : 3vw;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.nav-list li a,
+.nav-list li a:visited,
+.nav-list li a:active {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 0em 0.1em 0.5em rgb(0, 0, 0);
+    transition: font-size 0.3s ease , color 0.3s ease;
+}
+
+.nav-list li a:hover{
+    font-size:3vw;
+    color:rgb(246, 165, 255);
+}
+
+#home{
+    font-size:20vh;
+    text-align: center;
+    margin-top : 2vw;
+    padding-top: 15px;
+}
+
+#contacts{
+    display:grid;
+    justify-content: center;
+}
+
+#name , #email , #message {
+    min-width : 50vw;
+}
+
+.form{
+    display : grid;
+}
